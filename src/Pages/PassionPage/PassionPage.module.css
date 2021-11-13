@@ -1,0 +1,9 @@
+.PassionPage_Container{
+  /* margin-top: 6rem; */
+  height:100vh;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Montserrat', sans-serif;  
+  justify-content: center;
+  align-items:center;
+}

@@ -1,0 +1,18 @@
+.SidebarNav{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1rem;
+  padding-left: 3rem;
+}
+
+
+.NavLink{
+  text-decoration: none;
+  /* font-style: italic; */
+ 
+  font-size:x-large;
+  font-family: 'Style Script', cursive;
+  color: #034552;
+  
+}

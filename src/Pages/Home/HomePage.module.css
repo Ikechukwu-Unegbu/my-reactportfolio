@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Style+Script&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+.HomePage{
+  height: 100vh;
+ 
+}
+
+.socials_link{
+  text-decoration: none;
+}
+
+.HomePage_Container{
+  /* margin-top: 6rem; */
+  height:100vh;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Montserrat', sans-serif;  
+}
+
+.HomePage_Container p,.HomePage_Container h2,.HomePage_Container h1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.name{
+  display: none;
+}
+.right{
+  width: 50%;
+}
+
+.left{
+  width: 50%;
+  padding-left: 4rem;
+}
+
+.right{
+  height: 100%;
+  /* background-color: rebeccapurple; */
+  background-image: url('../../assets/images/Ellipse\ 1main.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  padding-top:2rem;
+
+}
+
+.right img{
+ /* height:90%; */
+  position:absolute; 
+  right:0;
+  top: auto;
+  bottom: 0;
+ 
+  width: 40%;
+  height: 90%; 
+  /* padding: 2rem; */
+
+}
+
+
+.button{
+  text-decoration: none;
+  background-color:white;
+  padding: 0.6rem;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: gray;
+  color: gray;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+
+
+}
+
+.contact_div{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.contacts{
+  display: flex;
+  flex-direction: row;
+  grid-gap: .5rem;
+  justify-content:flex-start;
+  align-items: center;
+  /* margin-top: 4rem; */
+}
+
+@media(max-width:500px){
+  .HomePage{
+    height: fit-content;
+  }
+ 
+  .contact_div{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5.5rem;
+    
+  }
+
+  .name{
+    display: inline;
+    position: absolute;
+    top:2rem;
+    left: 1rem;
+    font-family: 'Style Script', cursive;
+  }
+  .h1{
+    display: none;
+  }
+.HomePage_Container{
+
+  height:fit-content;
+  display: flex;
+  flex-direction: column-reverse;
+  
+}
+
+.right{
+  background-image: none;
+  width: 80%;
+  height: 50vh;
+  position: absolute;
+  top: 4rem;
+  right: 0;
+}
+
+.right img{
+  
+   position:absolute; 
+   right:0;
+   top: auto;
+   bottom: 0;
+  
+   width: 70%;
+   height: 80%; 
+   /* padding: 2rem; */
+ 
+ }
+
+.left{
+  width: 100%;
+  padding-left: 1rem;
+
+  margin-top: 53vh;
+}
+
+
+}

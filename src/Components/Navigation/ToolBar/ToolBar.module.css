@@ -1,0 +1,58 @@
+.Toolbar {
+
+  width: 100%;
+  position: static;
+  top: 0;
+  left: 0;
+  background-color:white;
+  display: flex;
+  /* grid-template-columns: 1fr 6fr; */
+  justify-content:space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 90;
+  /* margin-bottom: 20rem; */
+  /* margin-bottom: 3rem; */
+  height: 2.5rem;
+  
+}
+
+
+.NavLink{
+  text-decoration: none;
+  /* font-style: italic; */
+ 
+  font-size:x-large;
+  font-family: 'Style Script', cursive;
+  color: #034552;
+  
+}
+
+.Toolbar nav {
+  height: 100%;
+}
+
+.Logo {
+  height: 80%;
+  width: 20%;
+}
+.mobileOnly{
+  display: none;
+}
+
+@media (max-width: 767px) {
+  /* .Toolbar{
+    height: fit-content;
+  } */
+  .DesktopOnly {
+      display: none;
+  }
+  .mobileOnly{
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    /* width: 5rem;
+    height: 5rem; */
+  }
+}
