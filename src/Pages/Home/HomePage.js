@@ -1,6 +1,6 @@
 import classes from './HomePage.module.css';
 // import Header from '../../Components/UI/Header';
-import img from '../../assets/images/Jess 2Jess.png';
+import img from '../../assets/images/Ike.jpg';
 import Footer from '../../Components/UI/Footer';
 import NavigationLayout from '../../Components/Navigation/NavigationLayout';
 // import { NavLink } from 'react-router-dom';
@@ -17,12 +17,11 @@ const HomePage =()=>{
             <h1 className={classes.h1}>Hi I am...</h1>
             {/* <h1 className={classes.name}>I am Jessica</h1> */}
             <p>
-            A UX/UI designer currently living in Canada who loves to design.<b> I am focused on creating 
-            meaningful experiences for everyday users through design.</b>
+            ...Vincent Ikechukwu, experinced Front End and Back End Software Developer. I work with ReactJs and Laravel. I am currently transitioning into Blockchain with Solidity and C++.
             </p>
             <p>
-            Feel free to have a look at my work and do not hesistate to contact me if you think I can be of 
-            service to you.
+              My Project page contains "Designs vs My Implementation" for some live projects I have worked on.
+              Help yourself on the projects page. 
             </p>
             <p>
             Thanks for stopping by!
@@ -33,11 +32,11 @@ const HomePage =()=>{
             <h2>Contacts</h2>
             <div className={classes.contacts}>
               <i class="fas fa-2x fa-envelope-square"></i>
-              <p>jessiechidi@gmail.com</p>
+              <p>mr.ikunegbu@gmail.com</p>
             </div>
             <div className={classes.contacts}>
-              <i class="fab fa-2x fa-behance-square"></i>
-              <a className={classes.socials_link} href='https://www.behance.net/jessiechidi'>Jessie Chidi</a>
+              <i class="fab fa-2x fa-facebook-square"></i>
+              <a className={classes.socials_link} href='https://www.behance.net/jessiechidi'>Vincent Ikechukwu</a>
             </div>
             <div className={classes.contacts}>
               <i class="fab fa-2x fa-linkedin"></i>
