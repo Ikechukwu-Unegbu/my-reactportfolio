@@ -94,7 +94,7 @@
 .contacts{
   display: flex;
   flex-direction: row;
-  grid-gap: .5rem;
+  grid-gap: 1rem;
   justify-content:flex-start;
   align-items: center;
   /* margin-top: 4rem; */
@@ -134,10 +134,41 @@
   border-radius: 50%;
  
   width: 50%;
-  height: 50%; 
+  height: 40%; 
   /* padding: 2rem; */
 
 }
+
+
+.contact_div{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.contacts{
+  display: flex;
+  flex-direction: row;
+  grid-gap: 1rem;
+  justify-content:flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.stacks{
+  display: flex;
+  flex-direction: row;
+  grid-gap: 1rem;
+ height: 20rem;
+
+ /* position: fixed; */
+  width: 100%;
+  margin-bottom: 0;
+  /* padding-bottom: 8rem; */
+}
+
+
 }
 
 

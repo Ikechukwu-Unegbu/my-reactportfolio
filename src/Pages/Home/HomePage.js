@@ -41,11 +41,11 @@ const HomePage =()=>{
             </div>
             <div className={classes.contacts}>
               <i class="fab fa-2x fa-facebook-square"></i>
-              <a className={classes.socials_link} href='https://www.behance.net/jessiechidi'>Vincent Ikechukwu</a>
+              <a className={classes.socials_link} href='https://mobile.facebook.com/ikechukwu.unegbu.14'>Vincent Ikechukwu</a>
             </div>
             <div className={classes.contacts}>
               <i class="fab fa-2x fa-linkedin"></i>
-              <a className={classes.socials_link} href='http://linkedin.com/in/jessiechidi'>Jessie Chidi</a>
+              <a className={classes.socials_link} href='https://www.linkedin.com/in/ikechukwu-vincent-002934176/'>Vincent Ikechukwu</a>
             </div>
 
             
