@@ -6,12 +6,15 @@ import MainPdf from './Pages/MainPdf/MainPdf';
 import PassionPage from './Pages/PassionPage/PassionPage';
 import ProjectPage from './Pages/ProjectPage/ProjectPage';
 // import PDFPage from './Pages/PdfPage/PDFPage';
+// import Footer from './Components/UI/Footer';
+
 function App() {
   return (
     <Fragment>
       <Switch>
         <Route path='/' exact>
           <HomePage/>
+          
         </Route>
         {/* <Route path='/jess_resumee' exact>
           <PDFPage/>
@@ -27,7 +30,7 @@ function App() {
         </Route>
        
       </Switch>
-      
+      {/* <Footer/> */}
     </Fragment>
   );
 }

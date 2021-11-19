@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 const toolbar = ( props ) => (
     <header className={classes.Toolbar}>
         <NavLink to='' className={classes.NavLink}>
-          <p>Chidi Jessie</p>
+          <p>Vincent Ikechukwu</p>
         </NavLink>
         <nav className={classes.DesktopOnly}>
           <Header/>

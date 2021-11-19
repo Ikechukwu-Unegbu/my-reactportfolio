@@ -5,7 +5,8 @@ const Footer =()=>{
   return (
     <footer className={classes.Footer}>
       <div>
-        <p>Jessie Chidi 2021</p>
+        <p>Vincent Ikechukwu 2021</p>
+        <p><small>Design Inspiration from: Jessie Chidi</small></p>
       </div>
     </footer>
   );

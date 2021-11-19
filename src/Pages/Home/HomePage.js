@@ -4,10 +4,15 @@ import img from '../../assets/images/Ike.jpg';
 import Footer from '../../Components/UI/Footer';
 import NavigationLayout from '../../Components/Navigation/NavigationLayout';
 // import { NavLink } from 'react-router-dom';
+import laravel from '../../assets/images/laravel.png';
+import reactLogo from '../../assets/images/react3.png';
+import { Fragment } from 'react/cjs/react.production.min';
+//import laravelLogo from '../../assets/images/laravel.png';
 
 const HomePage =()=>{
   return (
-    <div className={classes.HomePage}>
+   <Fragment>
+      <div className={classes.HomePage}>
       {/* <Header/> */}
       <NavigationLayout/>
       
@@ -45,14 +50,27 @@ const HomePage =()=>{
 
             
           </div>
+          <div className={classes.stack_container}>
+            <h2>My Tech Stack</h2>
+            <div className={classes.stacks}>
+              <div className={classes.each_stack}>
+                <img src={laravel} alt='react js logo'/>
+              </div>
+              <div className={classes.each_stack}>
+                <img src={reactLogo} alt='react js logo'/>
+              </div>
+            </div>
+          </div>
         </div>
         
         <div className={classes.right}>
         <img src={img} alt='goes here'/>
         </div>
       </div>
-      <Footer/>
+      
     </div>
+    <Footer/>
+   </Fragment>
   );
 }
 
